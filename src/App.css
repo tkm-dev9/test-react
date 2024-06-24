@@ -46,3 +46,15 @@
   height: 200px;
   background: yellow;
 }
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  color: #000;
+  background: #fff;
+}

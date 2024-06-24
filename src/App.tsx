@@ -1,5 +1,7 @@
 import { useMemo, useState } from "react";
 import './App.css';
+import Portal from "./Portal";
+import PortalExample from "./PortalExample";
 
 export default function App() {
   const [show, setShow] = useState(false);
@@ -55,6 +57,8 @@ export default function App() {
           div!
         </div>
       )}
+      <Portal />
+      <PortalExample />
     </div>
   )
 
