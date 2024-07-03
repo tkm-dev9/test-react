@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import './App.css';
 import Portal from "./Portal";
 import PortalExample from "./PortalExample";
+import SearchForm from "./SearchForm";
 
 export default function App() {
   const [show, setShow] = useState(false);
@@ -45,7 +46,7 @@ export default function App() {
 
   return (
     <div>
-      <label>
+      {/* <label>
         <input type="checkbox" checked={show} onChange={(e) => {
           setShow(e.currentTarget.checked);
         }} />
@@ -58,7 +59,9 @@ export default function App() {
         </div>
       )}
       <Portal />
-      <PortalExample />
+      <PortalExample /> */}
+
+      <SearchForm />
     </div>
   )
 
