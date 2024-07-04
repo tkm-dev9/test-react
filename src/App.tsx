@@ -3,6 +3,7 @@ import './App.css';
 import Portal from "./Portal";
 import PortalExample from "./PortalExample";
 import SearchForm from "./SearchForm";
+import SelectUser from "./SelectUser";
 
 export default function App() {
   const [show, setShow] = useState(false);
@@ -62,6 +63,7 @@ export default function App() {
       <PortalExample /> */}
 
       <SearchForm />
+      <SelectUser />
     </div>
   )
 
