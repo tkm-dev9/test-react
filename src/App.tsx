@@ -4,8 +4,11 @@ import Portal from "./Portal";
 import PortalExample from "./PortalExample";
 import SearchForm from "./SearchForm";
 import SelectUser from "./SelectUser";
+import ApiSample from "./ApiSample";
+console.warn('App Outer');
 
 export default function App() {
+  console.warn('App');
   const [show, setShow] = useState(false);
   const [count, setCount] = useState(0);
 
@@ -64,6 +67,7 @@ export default function App() {
 
       <SearchForm />
       <SelectUser />
+      <ApiSample />
     </div>
   )
 
