@@ -5,6 +5,7 @@ import PortalExample from "./PortalExample";
 import SearchForm from "./SearchForm";
 import SelectUser from "./SelectUser";
 import ApiSample from "./ApiSample";
+import From from "./Form";
 console.warn('App Outer');
 
 export default function App() {
@@ -65,9 +66,12 @@ export default function App() {
       <Portal />
       <PortalExample /> */}
 
-      <SearchForm />
+      {/* <SearchForm />
       <SelectUser />
-      <ApiSample />
+      <ApiSample /> */}
+
+
+      <From />
     </div>
   )
 
