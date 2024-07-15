@@ -6,6 +6,9 @@ import SearchForm from "./SearchForm";
 import SelectUser from "./SelectUser";
 import ApiSample from "./ApiSample";
 import From from "./Form";
+import Form2 from "./Form2";
+import Form3 from "./Form3";
+import Form4 from "./Form4";
 console.warn('App Outer');
 
 export default function App() {
@@ -71,7 +74,10 @@ export default function App() {
       <ApiSample /> */}
 
 
-      <From />
+      {/* <From /> */}
+      {/* <Form2 /> */}
+      {/* <Form3 /> */}
+      <Form4 />
     </div>
   )
 
